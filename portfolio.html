@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+        <h1 class="welcome">Welcome to My Portfolio</h1>
+        <img src="image/backr.jpg" alt="Profile Picture" id="profile-pic">
+        <p class="name">Hi, I'm Nelson Mnari, a Software Engineer.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I’m a Software Engineer with a passion for building dynamic, user-friendly, and scalable applications. I specialize in
+                 UI Design, Front-End Development, Back-End Development, and Databases, ensuring seamless and efficient digital experiences.
+
+                With expertise in UI/UX design, I create visually appealing and intuitive interfaces that enhance user interaction. 
+                On the front-end, I bring designs to life using modern frameworks and technologies, ensuring responsiveness and smooth performance. 
+                My back-end development skills enable me to build robust server-side logic, APIs, and data processing systems. 
+                Additionally, I have a strong grasp of databases, ensuring efficient data management and optimization.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Programming Languages and other skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>node.js</li>
+                <li>SQL</li>
+                <li>UI Designing(HTML and CSS)</li>
+            </ul>
+        </section>  
+         <section id="education">
+                <h2>Educational Background</h2>
+                <p>Bachelor of Science In Geography and Environmental Science, University of Nairobi</p>
+                <p>Software Engineering at Power Learning Project Academy</p>
+                <a href="CV/MNARI NELSON -CV.pdf" download>Download CV</a>
+            </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul>
+                <li><p>Bank Survey form</p><a href="https://github.com/nelsonmnari/Survey-Form">form-link</a></li>
+                <li><p>python error handling</p><a href="https://github.com/nelsonmnari/python-file">python-link</a></li>
+            </ul>
+
+        </section>
+        
+        <section id="socialmedia-profiles">
+            <h2>Social Media Profiles</h2>
+            <p>Connect with me on social media:</p>
+            <ul>
+              <li><image src="image/GitHub-Logo.png" class="mage"><a href="https://github.com/nelsonmnari">github</a></li>
+                  <br>
+              <li><image src="image/telegram.jpg" class="mage"><a href="https://t.me/+BmKh5VqhkShkMjk0">telegram</a></li>
+                  <br>
+              <li><image src="image/instagram.png" class="mage"><a href="https://www.instagram.com/nelsonmnari?igsh=eGptbHZoNGVtNGQ3">instagram</a></li>
+            </ul>
+      </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required cols="53" rows="8"></textarea>
+                <br>
+                <button type="submit" class="button">Send</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+
